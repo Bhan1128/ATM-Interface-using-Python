@@ -60,7 +60,7 @@ class ATM:
             choice = input("Enter your choice: ")
 
             if choice == '1':
-                Pin_no = input("Enter your PIN_No.: ")
+                Pin_no = input("Enter your Pin_no.: ")
                 self.verify(Pin_no)
             elif choice == '2':
                 self.check_balance()
